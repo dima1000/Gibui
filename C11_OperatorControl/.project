@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>C11_OperatorControl-RelWithDebInfo@C11_OperatorControl</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/userws3/git/robil/C11_OperatorControl</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|ROS_ROOT=/opt/ros/fuerte/share/ros|ROS_PACKAGE_PATH=/usr/share/osrf-common-1.0/ros:/usr/share/drcsim-2.0/ros:/usr/share/sandia-hand-5.1/ros:/usr/share/drcsim-2.0/ros:/usr/share/drcsim-2.0/gazebo_models/irobot_hand_description/irobot_hand_on_box:/usr/share/drcsim-2.0/gazebo_models/irobot_hand_description/irobot_hand:/usr/share/drcsim-2.0/gazebo_models/multisense_sl_description/multisense_sl_description:/usr/share/drcsim-2.0/gazebo_models/multisense_sl_description/multisense_sl_on_box:/usr/share/drcsim-2.0/gazebo_models/atlas_description/atlas_sandia_hands:/usr/share/drcsim-2.0/gazebo_models/atlas_description/atlas:/usr/share/drcsim-2.0/gazebo_models/atlas_description/atlas_irobot_hands:/usr/share/drcsim-2.0/gazebo_models/environments/drc_vehicle:/usr/share/drcsim-2.0/gazebo_models/environments/fire_hose:/usr/share/drcsim-2.0/gazebo_models/environments/golf_cart:/usr/share/drcsim-2.0/gazebo_models/environments/powerplant:/usr/share/drcsim-2.0/gazebo_models/environments/drc_terrain:/usr/share/drcsim-2.0/gazebo_models/environments/standpipe:/opt/ros/fuerte/share:/opt/ros/fuerte/stacks:/home/userws3|PYTHONPATH=/opt/ros/fuerte/lib/python2.7/dist-packages:/opt/ros/fuerte/lib/python2.7/dist-packages:|PATH=/opt/ros/fuerte/bin:~/bin:/opt/ros/fuerte/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/userws3/git/robil/C11_OperatorControl</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11//imagedraw.ui</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/imagedraw.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11//mapmain.ui</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/mapmain.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/main.cpp</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/graphicsview.cpp</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/graphicsview.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/imagedraw.cpp</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/imagedraw.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/C11_Node.cpp</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/C11_Node.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/mapmain.cpp</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/mapmain.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/mapwidget.cpp</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/mapwidget.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/pixitem.cpp</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/pixitem.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/routeitem.cpp</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/routeitem.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/lineitemlist.cpp</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/lineitemlist.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/lineitem.cpp</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/lineitem.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/pointitem.cpp</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/pointitem.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/moc_graphicsview.cxx</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_graphicsview.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/moc_imagedraw.cxx</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_imagedraw.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/moc_C11_Node.cxx</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_C11_Node.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/moc_mapmain.cxx</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_mapmain.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/moc_mapwidget.cxx</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_mapwidget.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/moc_pixitem.cxx</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_pixitem.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/moc_routeitem.cxx</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_routeitem.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/moc_lineItemlist.cxx</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_lineItemlist.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/moc_lineitem.cxx</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_lineitem.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/moc_pointitem.cxx</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_pointitem.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Source Files/moc_structs.cxx</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_structs.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/ui_imagedraw.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/ui_imagedraw.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/ui_mapmain.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/ui_mapmain.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/graphicsview.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/graphicsview.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/imagedraw.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/imagedraw.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/C11_Node.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/C11_Node.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/mapmain.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/mapmain.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/mapwidget.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/mapwidget.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/pixitem.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/pixitem.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/routeitem.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/routeitem.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/lineItemlist.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/lineItemlist.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/lineitem.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/lineitem.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/pointitem.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/pointitem.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Header Files/structs.h</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/structs.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules/moc_graphicsview.cxx.rule</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_graphicsview.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules/moc_imagedraw.cxx.rule</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_imagedraw.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules/moc_C11_Node.cxx.rule</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_C11_Node.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules/moc_mapmain.cxx.rule</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_mapmain.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules/moc_mapwidget.cxx.rule</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_mapwidget.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules/moc_pixitem.cxx.rule</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_pixitem.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules/moc_routeitem.cxx.rule</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_routeitem.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules/moc_lineItemlist.cxx.rule</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_lineItemlist.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules/moc_lineitem.cxx.rule</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_lineitem.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules/moc_pointitem.cxx.rule</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_pointitem.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/CMake Rules/moc_structs.cxx.rule</name>
+			<type>1</type>
+			<location>/home/userws3/git/robil/C11_OperatorControl/src/moc_structs.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] c11/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

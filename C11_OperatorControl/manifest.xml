@@ -1,0 +1,23 @@
+<package>
+  <description brief="C11_OperatorControl">
+
+     C11_OperatorControl
+
+  </description>
+  <author>Lar</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/C11_OperatorControl</url>
+  <depend package="qt_build"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="sensor_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+  <depend package="C11_Agent"/>
+  <depend package="C10_Common"/>
+</package>
+
+

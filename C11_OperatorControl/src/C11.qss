@@ -1,0 +1,41 @@
+*{
+    font: Bold 8pt "Aharoni CLM";
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+QFrame#line,#line_2,#line_3,#line_4,#line_5{
+     
+     background-color: white;
+}
+
+QPushButton {
+     background-image: url(:/Resources/S1Slide1L.bmp);
+     border: none;
+ }
+
+QPushButton:hover {
+     border-image: url(:/Resources/S2Slide1L.bmp);
+ }
+
+QPushButton:checked {
+     border-image: url(:/Resources/S3Slide1L.bmp);
+ }
+
+QPushButton:checked:hover {
+     border-image: url(:/Resources/S4Slide1L.bmp);
+ }
+
+QSlider::groove:horizontal {
+     margin 2px 0;
+     height: 2px; /* the groove expands to the size of the slider by default. by giving it a height, it has a fixed size */
+     background-color: rgb(255, 255, 255);
+ }
+
+QSlider::handle:horizontal {
+     background: white;
+     width: 1px;
+     border: 2px solid white;
+     border-radius: 1px;
+     margin: -11px 4px;
+ }

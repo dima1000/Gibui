@@ -1,0 +1,26 @@
+<package>
+  <description brief="C11_Agent">
+
+     C11_Agent
+
+  </description>
+  <author>Shoshana Kirshenbaum</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/C11_Agent</url>
+  <depend package="qt_build"/>
+  <depend package="roslib"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="rospy"/>
+  <depend package="C0_RobilTask"/>
+  <depend package="C21_VisionAndLidar"/>
+  <depend package="C22_GroundRecognitionAndMapping"/>
+  <depend package="C25_GlobalPosition"/>
+  <depend package="C31_PathPlanner"/>
+  <depend package="C34_Executer"/>
+  <depend package="C10_Common"/>
+
+</package>
+
+
