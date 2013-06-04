@@ -57,6 +57,7 @@ SET(CMAKE_C_INCLUDE_PATH
   "/opt/ros/fuerte/stacks/vision_opencv/image_geometry/include"
   "/home/userws3/git/robil/C31_PathPlanner/msg_gen/cpp/include"
   "/home/userws3/git/robil/C31_PathPlanner/srv_gen/cpp/include"
+  "/home/userws3/git/robil/C22_transformations/include"
   "/home/userws3/git/robil/C34_Executer/srv_gen/cpp/include"
   "/home/userws3/git/robil/C34_BTExecuter/src"
   "/home/userws3/git/robil/C10_Common/msg_gen/cpp/include"

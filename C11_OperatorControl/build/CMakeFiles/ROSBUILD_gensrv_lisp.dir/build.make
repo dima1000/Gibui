@@ -97,6 +97,7 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_C11.lisp
 ../srv_gen/lisp/C11.lisp: /home/userws3/git/robil/viso2_ros/manifest.xml
 ../srv_gen/lisp/C11.lisp: /home/userws3/git/robil/C25_ekf/manifest.xml
 ../srv_gen/lisp/C11.lisp: /home/userws3/git/robil/C25_GlobalPosition/manifest.xml
+../srv_gen/lisp/C11.lisp: /home/userws3/git/robil/C22_transformations/manifest.xml
 ../srv_gen/lisp/C11.lisp: /home/userws3/git/robil/C31_PathPlanner/manifest.xml
 ../srv_gen/lisp/C11.lisp: /home/userws3/git/robil/C34_BTExecuter/manifest.xml
 ../srv_gen/lisp/C11.lisp: /home/userws3/git/robil/C34_Executer/manifest.xml

@@ -413,6 +413,8 @@ sensor_msgs/image_encodings.h
 -
 sensor_msgs/Image.h
 -
+std_msgs/String.h
+/home/userws3/git/robil/C11_OperatorControl/build/src/../../src/std_msgs/String.h
 string
 -
 QThread
@@ -603,6 +605,8 @@ sensor_msgs/image_encodings.h
 -
 sensor_msgs/Image.h
 -
+std_msgs/String.h
+/home/userws3/git/robil/C11_OperatorControl/src/std_msgs/String.h
 string
 -
 QThread
@@ -841,6 +845,8 @@ QTcpSocket
 -
 QHostAddress
 -
+QChar
+-
 tcpConnection.h
 /home/userws3/git/robil/C11_OperatorControl/src/tcpConnection.h
 iostream
@@ -899,6 +905,10 @@ geometry_msgs/Point.h
 /home/userws3/git/robil/C22_GroundRecognitionAndMapping/msg_gen/cpp/include/C22_GroundRecognitionAndMapping/geometry_msgs/Point.h
 geometry_msgs/Point.h
 /home/userws3/git/robil/C22_GroundRecognitionAndMapping/msg_gen/cpp/include/C22_GroundRecognitionAndMapping/geometry_msgs/Point.h
+geometry_msgs/Point.h
+/home/userws3/git/robil/C22_GroundRecognitionAndMapping/msg_gen/cpp/include/C22_GroundRecognitionAndMapping/geometry_msgs/Point.h
+geometry_msgs/Point.h
+/home/userws3/git/robil/C22_GroundRecognitionAndMapping/msg_gen/cpp/include/C22_GroundRecognitionAndMapping/geometry_msgs/Point.h
 
 /home/userws3/git/robil/C22_GroundRecognitionAndMapping/msg_gen/cpp/include/C22_GroundRecognitionAndMapping/C22_MAP_SQUARE.h
 string
@@ -945,6 +955,8 @@ ros/macros.h
 /home/userws3/git/robil/C22_GroundRecognitionAndMapping/msg_gen/cpp/include/C22_GroundRecognitionAndMapping/ros/macros.h
 ros/assert.h
 /home/userws3/git/robil/C22_GroundRecognitionAndMapping/msg_gen/cpp/include/C22_GroundRecognitionAndMapping/ros/assert.h
+geometry_msgs/Point.h
+/home/userws3/git/robil/C22_GroundRecognitionAndMapping/msg_gen/cpp/include/C22_GroundRecognitionAndMapping/geometry_msgs/Point.h
 
 /home/userws3/git/robil/C22_GroundRecognitionAndMapping/msg_gen/cpp/include/C22_GroundRecognitionAndMapping/C22_ROW_TYPE.h
 string
@@ -1807,6 +1819,22 @@ string
 -
 
 /opt/ros/fuerte/include/std_msgs/Header.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/opt/ros/fuerte/include/std_msgs/String.h
 string
 -
 vector

@@ -15,6 +15,7 @@
 #include "C11_HMIResponseServer.hpp"
 #include "C11_UntilOperatorIntervention.hpp"
 #include "C11_TCPServer.h"
+#include "atlas_msgs/VRCScore.h"
 #include <QThread>
 #include <QFile>
 #include <QString>
@@ -28,6 +29,8 @@ public:
   virtual void PushPath(vector<StructPoint> path) = 0;
   virtual void HMIResponse() = 0;
   virtual void ExecutionStatusChanged(int status) = 0;
+  virtual void SendExecuterStack(QString) = 0;
+  virtual void SimTimeUpdate(double) = 0;
 };
 
 class C11_Agent_Node : public QThread, public IPushHMIInterface, public IHMIResponseInterface
@@ -55,6 +58,10 @@ public:
   void StopExecuteMessageCallback(const std_msgs::StringConstPtr& msg);
 
   void RobotPosUpdateCallback(const C25_GlobalPosition::C25C0_ROP& robot_pos);
+
+  void ExecuterStackSubscriber(const std_msgs::StringConstPtr& stack);
+
+  void VRCScoreSubscriber(const atlas_msgs::VRCScore& score);
 
   void SetReleased();
 
@@ -92,6 +99,8 @@ private:
   ros::ServiceServer service_PathUpdate;
   ros::Subscriber status_subscriber;
   ros::Subscriber robot_pos_subscriber;
+  ros::Subscriber executer_stack_subscriber;
+  ros::Subscriber score_subscriber;
   ros::ServiceClient c34StopClient;
   ros::ServiceClient c11ExecutionStatusChangeClient;
   ros::ServiceClient c34RunClient;

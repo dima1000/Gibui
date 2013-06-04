@@ -21,6 +21,7 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/fuerte/share/roslang/cmake/roslang.cmake"
   "/opt/ros/fuerte/share/roslisp/rosbuild/roslisp.cmake"
   "/opt/ros/fuerte/share/rospy/rosbuild/rospy.cmake"
+  "/opt/ros/fuerte/stacks/xacro/cmake/xacro.cmake"
   "/usr/share/cmake-2.8/Modules/AddFileDependencies.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCXXInformation.cmake"

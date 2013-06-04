@@ -93,6 +93,7 @@ CMakeFiles/C11.dir/src/C11_Node.o: /opt/ros/fuerte/include/sensor_msgs/Image.h
 CMakeFiles/C11.dir/src/C11_Node.o: /opt/ros/fuerte/include/sensor_msgs/RegionOfInterest.h
 CMakeFiles/C11.dir/src/C11_Node.o: /opt/ros/fuerte/include/sensor_msgs/image_encodings.h
 CMakeFiles/C11.dir/src/C11_Node.o: /opt/ros/fuerte/include/std_msgs/Header.h
+CMakeFiles/C11.dir/src/C11_Node.o: /opt/ros/fuerte/include/std_msgs/String.h
 CMakeFiles/C11.dir/src/C11_Node.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/camera_publisher.h
 CMakeFiles/C11.dir/src/C11_Node.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/camera_subscriber.h
 CMakeFiles/C11.dir/src/C11_Node.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/exception.h
@@ -534,6 +535,7 @@ CMakeFiles/C11.dir/src/imagedraw.o: /opt/ros/fuerte/include/sensor_msgs/Image.h
 CMakeFiles/C11.dir/src/imagedraw.o: /opt/ros/fuerte/include/sensor_msgs/RegionOfInterest.h
 CMakeFiles/C11.dir/src/imagedraw.o: /opt/ros/fuerte/include/sensor_msgs/image_encodings.h
 CMakeFiles/C11.dir/src/imagedraw.o: /opt/ros/fuerte/include/std_msgs/Header.h
+CMakeFiles/C11.dir/src/imagedraw.o: /opt/ros/fuerte/include/std_msgs/String.h
 CMakeFiles/C11.dir/src/imagedraw.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/camera_publisher.h
 CMakeFiles/C11.dir/src/imagedraw.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/camera_subscriber.h
 CMakeFiles/C11.dir/src/imagedraw.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/exception.h
@@ -1040,6 +1042,7 @@ CMakeFiles/C11.dir/src/main.o: /opt/ros/fuerte/include/sensor_msgs/Image.h
 CMakeFiles/C11.dir/src/main.o: /opt/ros/fuerte/include/sensor_msgs/RegionOfInterest.h
 CMakeFiles/C11.dir/src/main.o: /opt/ros/fuerte/include/sensor_msgs/image_encodings.h
 CMakeFiles/C11.dir/src/main.o: /opt/ros/fuerte/include/std_msgs/Header.h
+CMakeFiles/C11.dir/src/main.o: /opt/ros/fuerte/include/std_msgs/String.h
 CMakeFiles/C11.dir/src/main.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/camera_publisher.h
 CMakeFiles/C11.dir/src/main.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/camera_subscriber.h
 CMakeFiles/C11.dir/src/main.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/exception.h
@@ -1924,6 +1927,7 @@ CMakeFiles/C11.dir/src/moc_C11_Node.o: /opt/ros/fuerte/include/sensor_msgs/Image
 CMakeFiles/C11.dir/src/moc_C11_Node.o: /opt/ros/fuerte/include/sensor_msgs/RegionOfInterest.h
 CMakeFiles/C11.dir/src/moc_C11_Node.o: /opt/ros/fuerte/include/sensor_msgs/image_encodings.h
 CMakeFiles/C11.dir/src/moc_C11_Node.o: /opt/ros/fuerte/include/std_msgs/Header.h
+CMakeFiles/C11.dir/src/moc_C11_Node.o: /opt/ros/fuerte/include/std_msgs/String.h
 CMakeFiles/C11.dir/src/moc_C11_Node.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/camera_publisher.h
 CMakeFiles/C11.dir/src/moc_C11_Node.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/camera_subscriber.h
 CMakeFiles/C11.dir/src/moc_C11_Node.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/exception.h
@@ -2263,6 +2267,7 @@ CMakeFiles/C11.dir/src/moc_imagedraw.o: /opt/ros/fuerte/include/sensor_msgs/Imag
 CMakeFiles/C11.dir/src/moc_imagedraw.o: /opt/ros/fuerte/include/sensor_msgs/RegionOfInterest.h
 CMakeFiles/C11.dir/src/moc_imagedraw.o: /opt/ros/fuerte/include/sensor_msgs/image_encodings.h
 CMakeFiles/C11.dir/src/moc_imagedraw.o: /opt/ros/fuerte/include/std_msgs/Header.h
+CMakeFiles/C11.dir/src/moc_imagedraw.o: /opt/ros/fuerte/include/std_msgs/String.h
 CMakeFiles/C11.dir/src/moc_imagedraw.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/camera_publisher.h
 CMakeFiles/C11.dir/src/moc_imagedraw.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/camera_subscriber.h
 CMakeFiles/C11.dir/src/moc_imagedraw.o: /opt/ros/fuerte/stacks/image_common/image_transport/include/image_transport/exception.h
@@ -3297,6 +3302,7 @@ CMakeFiles/C11.dir/src/tcpConnection.o: ../src/structs.h
 CMakeFiles/C11.dir/src/tcpConnection.o: ../src/tcpConnection.cpp
 CMakeFiles/C11.dir/src/tcpConnection.o: ../src/tcpConnection.h
 CMakeFiles/C11.dir/src/tcpConnection.o: /usr/include/qt4/Qt3Support/q3cstring.h
+CMakeFiles/C11.dir/src/tcpConnection.o: /usr/include/qt4/QtCore/QChar
 CMakeFiles/C11.dir/src/tcpConnection.o: /usr/include/qt4/QtCore/QDataStream
 CMakeFiles/C11.dir/src/tcpConnection.o: /usr/include/qt4/QtCore/QObject
 CMakeFiles/C11.dir/src/tcpConnection.o: /usr/include/qt4/QtCore/QPoint

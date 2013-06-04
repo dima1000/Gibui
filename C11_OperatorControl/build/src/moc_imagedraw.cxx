@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'imagedraw.h'
 **
-** Created: Fri May 31 09:42:41 2013
+** Created: Tue Jun 4 09:28:09 2013
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -107,6 +107,8 @@ void *ImageDraw::qt_metacast(const char *_clname)
     if (!_clname) return 0;
     if (!strcmp(_clname, qt_meta_stringdata_ImageDraw))
         return static_cast<void*>(const_cast< ImageDraw*>(this));
+    if (!strcmp(_clname, "IC11_Node_Subscriber"))
+        return static_cast< IC11_Node_Subscriber*>(const_cast< ImageDraw*>(this));
     if (!strcmp(_clname, "ITcpConnectionInterface"))
         return static_cast< ITcpConnectionInterface*>(const_cast< ImageDraw*>(this));
     return QMainWindow::qt_metacast(_clname);

@@ -100,6 +100,7 @@ CMakeFiles/ROSBUILD_gensrv_py: ../src/C11_OperatorControl/srv/__init__.py
 ../src/C11_OperatorControl/srv/_C11.py: /home/userws3/git/robil/viso2_ros/manifest.xml
 ../src/C11_OperatorControl/srv/_C11.py: /home/userws3/git/robil/C25_ekf/manifest.xml
 ../src/C11_OperatorControl/srv/_C11.py: /home/userws3/git/robil/C25_GlobalPosition/manifest.xml
+../src/C11_OperatorControl/srv/_C11.py: /home/userws3/git/robil/C22_transformations/manifest.xml
 ../src/C11_OperatorControl/srv/_C11.py: /home/userws3/git/robil/C31_PathPlanner/manifest.xml
 ../src/C11_OperatorControl/srv/_C11.py: /home/userws3/git/robil/C34_BTExecuter/manifest.xml
 ../src/C11_OperatorControl/srv/_C11.py: /home/userws3/git/robil/C34_Executer/manifest.xml
